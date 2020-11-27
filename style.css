@@ -1,0 +1,60 @@
+/* ------- Navigation ------- */ 
+nav{
+	padding: 10px 0;
+	margin-bottom: 3rem; 
+}
+.nav-link{
+	font-size: 20px;
+}
+/* ------- header ------- */ 
+.header{
+	height: 400px;
+	margin-top: 30px;
+}
+/* ------- cards ------- */ 
+.cards{
+	margin-top: 10rem;
+}
+.block{
+	padding: 1rem;
+	margin-bottom: 3rem;
+}
+.sub{
+	margin-top: 2.5rem;
+}
+/* ------- footer ------- */ 
+.footer{
+	padding-top: 2rem;
+	background-color: #393e46;
+	color: white;
+}
+
+
+}
+@media screen and (max-width: 990px){
+	.container{
+		max-width: 530px;
+	}
+	.cards{
+	margin-top: 8rem;
+	}
+}
+@media screen and (max-width: 590px){
+	.container{
+		max-width: 460px;
+	}
+
+}
+
+@media screen and (max-width: 449px){
+	.container{
+		max-width: 320px;
+	}
+
+}
+
+@media print {
+  .container {
+    width: auto;
+  }
+}
